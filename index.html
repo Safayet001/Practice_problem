@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Green Earth</title>
+    <link rel="icon" type="image/png" href="./logo.png">
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar bg-base-100 bg-green-700 text-white px-6 shadow-sm">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg aria-label="Menu" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+          </div>
+          <ul
+            tabindex="-1"
+            class="menu menu-sm dropdown-content text-black bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+            <li><a>About</a></li>
+            <li><a>Gallery</a></li>
+            <li><a>Plant a Tree</a></li>
+          </ul>
+        </div>
+        <a href="#" class="btn btn-ghost text-sm md:text-xl"><h1 class="text-white flex flex-row gap-1"><img src="./logo.png" alt="Green Earth Logo" class=" flex flex-row gap-1 w-5 h-5 md:w-8 md:h-8">Green Earth</h1></a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 text-white">
+          <li><a>About</a></li>
+          <li><a>Gallery</a></li>
+          <li><a>Plant a Tree</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a class="btn rounded-full bg-amber-300 text-green-700 border-0 shadow-sm">Plant a Tree</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="flex flex-row max-h-75 bg-green-100">
+      <div>
+      <img src="hero-leaf1.png" class="basis-1/6 hidden lg:flex">
+      
+      </div>
+      <div class="md:basis-2/3 flex-col text-center justify-center">
+        <h2 class=" text-2xl md:text-4xl font-bold mb-5 mt-10 md:mt-20">Plant a Tree, Grow a Future</h2>
+        <p2>Join our mission to plant 1 million trees and make the Earth greener for future generations.</p2>
+        <button class="btn rounded-full bg-amber-300 text-green-700 mt-5 mb-5">Get Involved</button>
+      </div>
+      <div>
+        <img src="hero-leaf1.png" class="basis-1/6 scale-x-[-1] hidden lg:flex">
+      </div>
+    </section>
+
+    <section class="grid grid-cols-1 md:grid-cols-[1fr_4fr_1fr] gap-1 bg-green-50">
+      <div class="max-w-full md:max-w-1/4">
+        <h3 class="text-xl font-bold mt-10 md:mt-20 text-center ml-10 mb-5">Categories</h3>
+        <ul class="ml-10 space-y-2 flex flex-wrap gap-6">
+          <li><a href="#" class="whitespace-nowrap rounded-full px-2 py-2 translation-all duration-300 hover:bg-green-600 hover:text-white">Fruit Tree</a></li>
+          <li><a href="#" class="whitespace-nowrap rounded-full px-2 py-2 translation-all duration-300 hover:bg-green-600 hover:text-white">Flowering Tree</a></li>
+          <li><a href="#" class="whitespace-nowrap rounded-full px-2 py-2 translation-all duration-300 hover:bg-green-600 hover:text-white">Shade Tree</a></li>
+          <li><a href="#" class="whitespace-nowrap rounded-full px-2 py-2 translation-all duration-300 hover:bg-green-600 hover:text-white">Medicinal Tree</a></li>
+          <li><a href="#" class="whitespace-nowrap rounded-full px-2 py-2 translation-all duration-300 hover:bg-green-600 hover:text-white">Timber Tree</a></li>
+          <li><a href="#" class="whitespace-nowrap rounded-full px-2 py-2 translation-all duration-300 hover:bg-green-600 hover:text-white">Evergreen Tree</a></li>
+          <li><a href="#" class="whitespace-nowrap rounded-full px-2 py-2 translation-all duration-300 hover:bg-green-600 hover:text-white">Ornamental Plant</a></li>
+          <li><a href="#" class="whitespace-nowrap rounded-full px-2 py-2 translation-all duration-300 hover:bg-green-600 hover:text-white">Bamboo</a></li>
+          <li><a href="#" class="whitespace-nowrap rounded-full px-2 py-2 translation-all duration-300 hover:bg-green-600 hover:text-white">Climber</a></li>
+          <li><a href="#" class="whitespace-nowrap rounded-full px-2 py-2 translation-all duration-300 hover:bg-green-600 hover:text-white">Aquatic Plant</a></li>
+        </ul>
+      </div>
+
+      <div class="grid grid-cols-1 justify-items-center md:grid-cols-3 gap-0.5 align-center mt-10 md:mt-20">
+        <div class="card bg-green-50 w-9/10 h-100 shadow-xl mr-3 mb-5 md:w-72 rounded-xl">
+          <figure class="px-5 pt-5">
+            <img
+              src="mango-min.jpg"
+              alt="mango"
+              class="rounded-xl"/>
+            </figure>
+          <div class="card-body items-center text-left">
+            <h2 class="card-title text-left self-start">Mango Tree</h2>
+            <p class="line-clamp-2">A fast-growing tropical tree that produces delicious, juicy mangoes during summer. Its dense green canopy offers shade, while its sweet fruits are rich in vitamins and minerals.</p>
+            <div class="flex flex-row justify-between items-center w-full">
+              <div class="badge badge-success bg-green-300 text-green-700 border-0 shadown-sm font-bold">Fruit Tree</div>
+              <div class="badge badge-success bg-base-100 border-0 font-semibold text-black">500</div>
+            </div>
+            <div class="card-actions w-full">
+              <button class="btn btn-primary w-full rounded-full bg-green-700 border-0 shadow-sm hover:bg-green-600">Add to Cart</button>
+            </div>
+         </div>
+        </div>
+        <div class="card bg-green-50 w-9/10 h-100 shadow-xl mr-3 mb-5 md:w-72 rounded-xl">
+          <figure class="px-5 pt-5">
+            <img
+              src="guava-min.jpg"
+              alt="guava"
+              class="rounded-xl"/>
+            </figure>
+          <div class="card-body items-center text-left">
+            <h2 class="card-title text-left self-start">Guava Tree</h2>
+            <p class="line-clamp-2">A hardy fruit tree that grows in various climates, yielding guavas packed with Vitamin C. Its low maintenance nature makes it a favorite for home gardens.</p>
+            <div class="flex flex-row justify-between items-center w-full">
+              <div class="badge badge-success bg-green-300 text-green-700 border-0 shadown-sm font-bold">Fruit Tree</div>
+              <div class="badge badge-success bg-base-100 border-0 font-semibold text-black">350</div>
+            </div>
+            <div class="card-actions w-full">
+              <button class="btn btn-primary w-full rounded-full bg-green-700 border-0 shadow-sm hover:bg-green-600">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-green-50 w-9/10 h-100 shadow-xl mr-3 mb-5 md:w-72 rounded-xl">
+          <figure class="px-5 pt-5">
+            <img
+              src="jackfruit-min.jpg"
+              alt="Jackfruit"
+              class="rounded-xl" />
+            </figure>
+          <div class="card-body items-center text-left">
+            <h2 class="card-title text-left self-start">Jackfruit Tree</h2>
+            <p class="line-clamp-2">A large tropical tree that bears the world’s biggest fruit, the jackfruit. Its sweet and aromatic flesh is both nutritious and filling, and the tree itself provides generous shade.</p>
+            <div class="flex flex-row justify-between items-center w-full">
+              <div class="badge badge-success bg-green-300 text-green-700 border-0 shadown-sm font-bold">Fruit Tree</div>
+              <div class="badge badge-success bg-base-100 border-0 font-semibold text-black">800</div>
+            </div>
+            <div class="card-actions w-full">
+              <button class="btn btn-primary w-full rounded-full bg-green-700 border-0 shadow-sm hover:bg-green-600">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-green-50 w-9/10 h-100 shadow-xl mr-3 mb-5 md:w-72 rounded-xl">
+        <figure class="px-5 pt-5">
+          <img
+            src="Gulmohar-min.jpg"
+            alt="Gulmohar"
+            class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-left">
+          <h4 class="card-title text-left self-start">Gulmohar</h4>
+          <p class="line-clamp-2">Known as the ‘Flame of the Forest’, this tree bursts into a vibrant display of red flowers every summer. Perfect for beautifying avenues and gardens.</p>
+          <div class="flex flex-row justify-between items-center w-full">
+            <div class="badge badge-success bg-green-300 text-green-700 border-0 shadown-sm font-bold">Flowering Tree</div>
+            <div class="badge badge-success bg-base-100 border-0 font-semibold text-black">400</div>
+          </div>
+          <div class="card-actions w-full">
+            <button class="btn btn-primary rounded-full bg-green-700 border-0 shadow-sm w-full hover:bg-green-600">Add to Cart</button>
+          </div>
+        </div>
+        </div>
+
+        <div class="card bg-green-50 w-9/10 h-100 shadow-xl mr-3 mb-5 md:w-72 rounded-xl">
+          <figure class="px-5 pt-5">
+            <img
+              src="champa-min.jpg"
+              alt="Champa"
+              class="rounded-xl" />
+            </figure>
+          <div class="card-body items-center text-left">
+            <h4 class="card-title text-left self-start">Champa</h4>
+            <p class="line-clamp-2">A fragrant flowering tree that adorns gardens with its delicate white blossoms. Widely cherished in traditional rituals and perfumery.</p>
+            <div class="flex flex-row justify-between items-center w-full">
+              <div class="badge badge-success bg-green-300 text-green-700 border-0 shadown-sm font-bold">Flowering Tree</div>
+              <div class="badge badge-success bg-base-100 border-0 font-semibold text-black">300</div>
+            </div>
+            <div class="card-actions w-full">
+              <button class="btn btn-primary rounded-full bg-green-700 border-0 shadow-sm w-full hover:bg-green-600">Add to Cart</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="card bg-green-50 w-9/10 h-100 shadow-xl mr-3 mb-5 md:w-72 rounded-xl">
+          <figure class="px-5 pt-5">
+            <img
+              src="Krishnachura-min.jpg"
+              alt="Krishnachura"
+              class="rounded-xl" />
+            </figure>
+          <div class="card-body items-center text-left">
+            <h4 class="card-title text-left self-start">Krishnachura</h4>
+            <p class="line-clamp-2">A striking ornamental tree famous for its brilliant orange-red blossoms. Its wide canopy adds a festive charm to parks and roadsides.</p>
+            <div class="flex flex-row justify-between items-center w-full">
+              <div class="badge badge-success bg-green-300 text-green-700 border-0 shadown-sm font-bold">Flowering Tree</div>
+              <div class="badge badge-success bg-base-100 border-0 font-semibold text-black">450</div>
+            </div>
+            <div class="card-actions w-full">
+              <button class="btn btn-primary rounded-full bg-green-700 border-0 shadow-sm w-full hover:bg-green-600">Add to Cart</button>
+            </div>
+        </div>
+        </div>
+
+        <div class="card bg-green-50 w-9/10 h-100 shadow-xl mr-3 mb-5 md:w-72 rounded-xl">
+        <figure class="px-5 pt-5">
+          <img
+            src="banyan-min.jpg"
+            alt="Banyan"
+            class="rounded-xl" />
+          </figure>
+        <div class="card-body items-center text-left">
+          <h4 class="card-title text-left self-start">Banyan Tree</h4>
+          <p class="line-clamp-2">A majestic shade tree with a vast canopy and iconic aerial roots. Revered in many cultures, it offers shelter to countless birds and animals.</p>
+          <div class="flex flex-row justify-between items-center w-full">
+            <div class="badge badge-success bg-green-300 text-green-700 border-0 shadown-sm font-bold">Shade Tree</div>
+            <div class="badge badge-success bg-base-100 border-0 font-semibold text-black">1200</div>
+          </div>
+          <div class="card-actions w-full">
+            <button class="btn btn-primary rounded-full bg-green-700 border-0 shadow-sm w-full hover:bg-green-600">Add to Cart</button>
+          </div>
+        </div>
+        </div>
+
+        <div class="card bg-green-50 w-9/10 h-100 shadow-xl mr-3 mb-5 md:w-72 rounded-xl">
+          <figure class="px-5 pt-5">
+            <img
+              src="neem-min.jpg"
+              alt="Neem"
+              class="rounded-xl" />
+            </figure>
+          <div class="card-body items-center text-left">
+            <h4 class="card-title text-left self-start">Neem Tree</h4>
+            <p class="line-clamp-2">A medicinal shade tree with powerful insect-repelling properties. Its leaves, bark, and seeds are widely used in traditional remedies.</p>
+            <div class="flex flex-row justify-between items-center w-full">
+              <div class="badge badge-success bg-green-300 text-green-700 border-0 shadown-sm font-bold">Shade Tree</div>
+              <div class="badge badge-success bg-base-100 border-0 font-semibold text-black">600</div>
+            </div>
+            <div class="card-actions w-full">
+              <button class="btn btn-primary rounded-full bg-green-700 border-0 shadow-sm w-full hover:bg-green-600">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-green-50 w-9/10 h-100 shadow-xl mr-3 mb-5 md:w-72 rounded-xl">
+          <figure class="px-5 pt-5">
+            <img
+              src="rain-min.jpg"
+              alt="Rain Tree"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-left">
+            <h4 class="card-title text-left self-start">Rain Tree</h4>
+            <p class="line-clamp-2">A fast-growing tree with umbrella-like canopy and soft pink flowers. Perfect for roadside planting to provide cool shade.</p>
+            <div class="flex flex-row justify-between items-center w-full">
+              <div class="badge badge-success bg-green-300 text-green-700 border-0 shadown-sm font-bold">Shade Tree</div>
+              <div class="badge badge-success bg-base-100 border-0 font-semibold text-black">900</div>
+            </div>
+            <div class="card-actions w-full">
+              <button class="btn btn-primary rounded-full bg-green-700 border-0 shadow-sm w-full hover:bg-green-600">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-green-50 w-9/10 h-100 shadow-xl mr-3 mb-5 md:w-72 rounded-xl">
+          <figure class="px-5 pt-5">
+            <img
+              src="amla-min.jpg"
+              alt="Amla Tree"
+              class="rounded-xl" />
+            </figure>
+          <div class="card-body items-center text-left">
+            <h4 class="card-title text-left self-start">Amla Tree</h4>
+            <p class="line-clamp-2">A small to medium tree producing fruits rich in Vitamin C and antioxidants. Its fruits are used in Ayurvedic tonics for boosting immunity.</p>
+            <div class="flex flex-row justify-between items-center w-full">
+              <div class="badge badge-success bg-green-300 text-green-700 border-0 shadown-sm font-bold">Medicinal Tree</div>
+              <div class="badge badge-success bg-base-100 border-0 font-semibold text-black">550</div>
+            </div>
+            <div class="card-actions w-full">
+            <button class="btn btn-primary rounded-full bg-green-700 border-0 shadow-sm w-full hover:bg-green-600">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-green-50 w-9/10 h-100 shadow-xl mr-3 mb-5 md:w-72 rounded-xl">
+          <figure class="px-5 pt-5">
+            <img
+              src="arjun-min.jpg"
+              alt="Arjun Tree"
+              class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-left">
+            <h4 class="card-title text-left self-start">Arjun Tree</h4>
+            <p class="line-clamp-2">A sturdy tree with bark known for its heart-strengthening properties. Valued in herbal medicine for cardiovascular health.</p>
+            <div class="flex flex-row justify-between items-center w-full">
+              <div class="badge badge-success bg-green-300 text-green-700 border-0 shadown-sm font-bold">Medicinal Tree</div>
+              <div class="badge badge-success bg-base-100 border-0 font-semibold text-black">700</div>
+            </div>
+          <div class="card-actions w-full">
+            <button class="btn btn-primary rounded-full bg-green-700 border-0 shadow-sm w-full hover:bg-green-600">Add to Cart</button>
+          </div>
+          </div>
+        </div>
+
+        <div class="card bg-green-50 w-9/10 h-100 shadow-xl mr-3 mb-5 md:w-72 rounded-xl">
+          <figure class="px-5 pt-5">
+            <img
+              src="bael-min.jpg"
+              alt="Bael Tree"
+              class="rounded-xl" />
+            </figure>
+          <div class="card-body items-center text-left">
+            <h4 class="card-title text-left self-start">Bael Tree</h4>
+            <p class="line-clamp-2">A fruit tree whose pulp is used as a natural coolant and digestive aid. The fragrant flowers also attract bees and butterflies.</p>
+            <div class="flex flex-row justify-between items-center w-full">
+              <div class="badge badge-success bg-green-300 text-green-700 border-0 shadown-sm font-bold">Medicinal Tree</div>
+              <div class="badge badge-success bg-base-100 border-0 font-semibold text-black">500</div>
+            </div>
+            <div class="card-actions w-full">
+              <button class="btn btn-primary rounded-full bg-green-700 border-0 shadow-sm w-full hover:bg-green-600">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-green-50 w-9/10 h-100 shadow-xl mr-3 mb-5 md:w-72 rounded-xl">
+          <figure class="px-5 pt-5">
+            <img
+              src="teak-min.jpg"
+              alt="Teak"
+              class="rounded-xl" />
+            </figure>
+          <div class="card-body items-center text-left">
+            <h4 class="card-title text-left self-start">Teak</h4>
+            <p class="line-clamp-2">A high-value hardwood tree known for its durability and resistance to termites. Widely used in luxury furniture and shipbuilding.</p>
+            <div class="flex flex-row justify-between items-center w-full">
+              <div class="badge badge-success bg-green-300 text-green-700 border-0 shadown-sm font-bold">Timber Tree</div>
+              <div class="badge badge-success bg-base-100 border-0 font-semibold text-black">2000</div>
+            </div>
+            <div class="card-actions w-full">
+              <button class="btn btn-primary rounded-full bg-green-700 border-0 shadow-sm w-full hover:bg-green-600">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-green-50 w-9/10 h-100 shadow-xl mr-3 mb-5 md:w-72 rounded-xl">
+          <figure class="px-5 pt-5">
+            <img
+              src="mahogony-min.jpg"
+              alt="Mahogany"
+              class="rounded-xl" />
+            </figure>
+          <div class="card-body items-center text-left">
+            <h4 class="card-title text-left self-start">Mahogany</h4>
+            <p class="line-clamp-2">A premium timber tree producing richly colored, strong wood. Favored for fine furniture and interior paneling.</p>
+            <div class="flex flex-row justify-between items-center w-full">
+              <div class="badge badge-success bg-green-300 text-green-700 border-0 shadown-sm font-bold">Timber Tree</div>
+              <div class="badge badge-success bg-base-100 border-0 font-semibold text-black">2500</div>
+            </div>
+            <div class="card-actions w-full">
+              <button class="btn btn-primary rounded-full bg-green-700 border-0 shadow-sm w-full hover:bg-green-600">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="md:mt-10 px-8 w-full">
+        <div class="card card-dash bg-base-100 w-full md:w-50 h-25 md:mt-10">
+          <div class="card-body">
+            <h2 class="card-title justify-center md:self-start">Your Cart</h2>
+            <p>Total:</p>
+            <div class="card-actions justify-end">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-span-1 md:col-span-3">
+        <h2 class="text-center text-4xl mb-10 mt-10">About the Campaign</h2>
+        <div class="mt-10 mb-10 mr-30 ml-30 grid grid-cols-1 md:grid-cols-2 gap-3">
+          <div>
+            <img src="about.png"/>
+          </div>
+          <div class="md:py-30">
+            <p class="mt-10 mb-10 text-justify">Green Earth is a global tree plantation initiative dedicated to fighting climate change. Since our start, we’ve planted over 500,000 trees worldwide. By joining our campaign, you help restore forests, create habitats for wildlife, and combat global warming.</p>
+            <ul class="list-disc ml-5">
+              <li>Restoration of natural habitats</li>
+              <li>Improvement of air quality</li>
+              <li>Support for local communities</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-green-100 py-5">
+      <div class="w-11/12 mx-auto py-10 md:py-20">
+        <div>
+          <h2 class="font-semibold text-center text-4xl mb-12">Our Impact</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- <label class="card bg-base-100 text-accent-content w-80 h-32 gap-6 rounded-xl">
+            <input type="checkbox" name="card-urgent-1" />
+            <div class="card-body items-center justify-center p-4">
+              <h2 class="card-title text-green-700 justify-center text-2xl">500K+</h2>
+              <p class="text-lg">Trees Planted</p>
+            </div>
+          </label> -->
+          <div class="text-center bg-white px-3 md:px-8 py-4 md:py-6 rounded-xl shadow-sm h-full hover:bg-[#c5edd5]">
+            <h2 class="text-2xl font-semibold text-green-700 mb-2">500K+</h2>
+            <p class="text-sm text-[#09090B90]">Trees Planted</p>
+          </div>
+          <!-- <label class="card bg-base-100 text-accent-content w-80 h-32 gap-6 rounded-xl">
+            <input type="checkbox" name="card-urgent-1" />
+            <div class="card-body items-center justify-center p-4">
+              <h2 class="card-title text-green-700 text-2xl">120+</h2>
+              <p class="text-lg">Communities Involved</p>
+            </div>
+          </label> -->
+          <div class="text-center bg-white px-3 md:px-8 py-4 md:py-6 rounded-xl shadow-sm h-full hover:bg-[#c5edd5]">
+            <h2 class="text-2xl font-semibold text-green-700 mb-2">120+</h2>
+            <p class="text-sm text-[#09090B90]">Communities Involved</p>
+          </div>
+          <!-- <label class="card bg-base-100 text-accent-content w-80 h-32 gap-6 rounded-xl">
+            <input type="checkbox" name="card-urgent-1"/>
+            <div class="card-body items-center justify-center p-4">
+              <h2 class="card-title text-green-700 text-2xl">30+</h2>
+              <p class="text-lg">Countries Reached</p>
+            </div>
+          </label> -->
+          <div class="text-center bg-white px-3 md:px-8 py-4 md:py-6 rounded-xl shadow-sm h-full hover:bg-[#c5edd5]">
+            <h2 class="text-2xl font-semibold text-green-700 mb-2">30+</h2>
+            <p class="text-sm text-[#09090B90]">Countries Reached</p>
+          </div>
+        </div> 
+      </div> 
+
+    </section>
+
+    <section class="bg-green-700 pt-10 pb-10">
+      <h2 class="font-bold text-white text-2xl text-center mb-5">Plant a Tree Today</h2>
+      <div class="flex justify-center">
+        <fieldset class="fieldset bg-green-600 border-0 rounded-box w-xs border p-4">
+
+          <input type="email" class="input" placeholder="Your Name" />
+
+          <input type="password" class="input" placeholder="Your Email Address" />
+
+          
+          <!-- <input type="" class="menu dropdown-content bg-base-100 rounded w-full" placeholder="Number of Trees"> -->
+          <button class="btn w-full justify-start font-normal" popovertarget="popover-1" style="anchor-name:--anchor-1">Number of Trees</button>
+          <ul class="dropdown menu w-xs rounded-box bg-base-200 shadow-sm" popover id="popover-1" style="position-anchor:--anchor-1">
+            <li><a>1 Tree- $5</a></li>
+            <li><a>5 Trees- $25</a></li>
+            <li><a>10 Trees- $50</a></li>
+          </ul>
+
+          <button class="btn btn-neutral mt-4 bg-amber-300 text-green-700 border-0 shadow-sm rounded">Donate Now</button>
+        </fieldset>
+      </div>  
+    </section>
+  </main>
+
+  
+  <footer class="footer sm:footer-horizontal footer-center bg-green-800 text-base-content p-4">
+    <aside>
+      <p> © 2026 Green Earth. All Rights Reserved</p>
+    </aside>
+  </footer>
+  
+    
+</body>
+</html>
